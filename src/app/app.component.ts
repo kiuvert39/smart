@@ -13,7 +13,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 export class AppComponent  implements OnInit {
  
-  constructor(private http: HttpClient){}
+  constructor(private http: HttpClient){};
 
   public content: any;
   public content1:  any; 

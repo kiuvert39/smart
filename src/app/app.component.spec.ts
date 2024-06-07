@@ -39,5 +39,5 @@ describe('AppComponent', () => {
     expect(app.getdata).toHaveBeenCalled();
   });
 
-  // Add more tests as needed
+
 });
