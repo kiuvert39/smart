@@ -1,12 +1,12 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppComponent } from '../app.component';
+
 
 @Component({
   selector: 'app-smart-card',
   standalone: true,
-  imports: [HttpClientModule, CommonModule, AppComponent],
+  imports: [HttpClientModule, CommonModule],
   templateUrl: './smart-card.component.html',
   styleUrls: ['./smart-card.component.css'],
 })

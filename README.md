@@ -1,27 +1,53 @@
-# Smart
+# Smart billing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+## Description
+This is a simple Angular application that demonstrates fetching data from an API and displaying it in a UI. The application fetches billing address data from a JSON API and renders it in a smart card component
 
-## Development server
+## Prerequisites
+To run and develop this application, you need to have the following tools installed:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Node.js](https://nodejs.org/en/download/) (version 14.x or higher recommended)
+- [Angular CLI](https://angular.io/cli) (version 17.x or higher)
+- [npm](https://www.npmjs.com/get-npm)
+## Installation
+Clone the repository and install the dependencies:
 
-## Code scaffolding
+```bash
+git clone https://github.com/kiuvert39/smart.git
+cd smart
+npm install
+ng serve 
+```   
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+#  Unit Testing
+##  Dependencies
+- Jasmine: Behavior-driven development framework for testing JavaScript code.
+-  Karma: Test runner for executing unit tests while providing a browser environment.
+-  Angular Testing Utilities: Angular provides utilities for testing components, services, directives, pipes, and more.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+##  Running Tests
+>   To run unit tests, execute the following command in the terminal:
 
-## Running unit tests
+```bash
+ng test
+```
+##  Generating Code Coverage
+To generate code coverage reports alongside the unit tests, use the --code-coverage flag:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng test --code-coverage
+```
 
-## Running end-to-end tests
+##  Additional Notes
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- The application uses Angular CLI for project scaffolding and development.
+-   Data is fetched from a remote API endpoint 
+ > (https://rawgit.com/rohit-dantas-conichi/3cf7d1da56f60959adfc4664cff31189/raw/e97db2ad3940dce2a7da1ececcc1375b1f46311d/page-select_billing_address-en.json).  and 
+ >  https://rawgit.com/rohit-dantas-conichi/48635f6c8eead55a4b16e8670a813ac5/raw/eefc1c5180234519816df4d7293892fb92bab0e0/organism-billing_addresses-en.json
+- Unit tests are included for components and services. You can run tests using ng test.
+-   Test coverage reports can be generated using ng test --code-coverage.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+>after deploying building and deploying on a node server the final result was hosted on render below is the live link
+-   https://smart-billing.onrender.com
