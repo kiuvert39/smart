@@ -43,8 +43,8 @@ ng test --code-coverage
 
 - The application uses Angular CLI for project scaffolding and development.
 -   Data is fetched from a remote API endpoint 
- > (https://rawgit.com/rohit-dantas-conichi/3cf7d1da56f60959adfc4664cff31189/raw/e97db2ad3940dce2a7da1ececcc1375b1f46311d/page-select_billing_address-en.json).  and 
- >  https://rawgit.com/rohit-dantas-conichi/48635f6c8eead55a4b16e8670a813ac5/raw/eefc1c5180234519816df4d7293892fb92bab0e0/organism-billing_addresses-en.json
+ * https://rawgit.com/rohit-dantas-conichi/3cf7d1da56f60959adfc4664cff31189/raw/e97db2ad3940dce2a7da1ececcc1375b1f46311d/page-select_billing_address-en.json
+	* https://rawgit.com/rohit-dantas-conichi/48635f6c8eead55a4b16e8670a813ac5/raw/eefc1c5180234519816df4d7293892fb92bab0e0/organism-billing_addresses-en.json
 - Unit tests are included for components and services. You can run tests using ng test.
 -   Test coverage reports can be generated using ng test --code-coverage.
 
